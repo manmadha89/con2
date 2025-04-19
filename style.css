@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  
+  .container {
+    background:greenyellow;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 110%;
+    max-width: 400px;
+     background-image: url("pexels-packermann-1666015.jpg");
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+  }
+
+  form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background: yellowgreen;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #005fa3;
+  }
+  
+  #formMessage {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
